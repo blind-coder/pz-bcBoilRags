@@ -1,0 +1,23 @@
+module bcBoilRags
+{
+	recipe Boil rags
+	{
+		destroy Pot/WaterPot,
+		Water=5,
+		RippedSheetsDirty=4,
+
+		Result:bcBoilRags.PotOfDirtyRags,
+		Time:100.0,
+		Category:FirstAid
+	}
+	recipe Boil rags
+	{
+		destroy Pot/WaterPot,
+		Water=5,
+		RippedSheets=4,
+
+		Result:bcBoilRags.PotOfDirtyRags,
+		Time:100.0,
+		Category:FirstAid
+	}
+}

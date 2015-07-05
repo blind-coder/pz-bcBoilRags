@@ -1,0 +1,5 @@
+name=Boil Rags to clean them
+poster=empty.png
+description=Boil dirty rags to sterilize them.
+id=bcBoilRags
+require=bcUtils
