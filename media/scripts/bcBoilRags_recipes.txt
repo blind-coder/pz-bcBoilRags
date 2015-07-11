@@ -20,4 +20,13 @@ module bcBoilRags
 		Time:100.0,
 		Category:FirstAid
 	}
+	recipe Take clean rags
+	{
+		destroy bcBoilRags.PotOfCleanRags,
+
+		Result:Base.AlcoholRippedSheets=4,
+		OnCreate:TakeCleanRags_OnCreate,
+		Time:25,
+		Category:FirstAid
+	}
 }

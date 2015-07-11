@@ -2,18 +2,13 @@ module bcBoilRags
 {
 	item PotOfDirtyRags
 	{
-		BoredomChange      =  99,
-		DaysFresh          =  2,
-		DaysTotallyRotten  =  3,
 		DisplayName        =  Pot of dirty rags,
-		HungerChange       =  99,
 		Icon               =  PotFull,
 		IsCookable         =  true,
 		MinutesToBurn      =  9999,
 		MinutesToCook      =  60,
 		ReplaceOnCooked    =  bcBoilRags.PotOfCleanRags,
 		Type               =  Food,
-		UnhappyChange      =  99,
 		Weight             =  5
 	}
 	item PotOfCleanRags
