@@ -2,4 +2,7 @@ name=Boil Rags to clean them
 poster=empty.png
 description=Boil dirty rags to sterilize them.
 id=bcBoilRags
-require=bcUtils
+
+modversion=0.2.0
+pzversion=32.16
+versionurl=https://raw.githubusercontent.com/blind-coder/pz-bcBoilRags/master/latest_version.txt
