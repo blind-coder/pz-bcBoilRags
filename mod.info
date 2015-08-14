@@ -3,6 +3,6 @@ poster=empty.png
 description=Boil dirty rags to sterilize them.
 id=bcBoilRags
 
-modversion=0.2.0
+modversion=0.2.1
 pzversion=32.16
 versionurl=https://raw.githubusercontent.com/blind-coder/pz-bcBoilRags/master/mod.info
